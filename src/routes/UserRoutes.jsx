@@ -10,8 +10,6 @@ import { NavbarReactBootstrap } from "../pages/NavbarReactBootstrap";
 import { Devices } from "../pages/Devices";
 
 const UserRoutes = () => {
-  // const [token, setToken] = useState();
-  // const [userType, setUserType] = useState();
 
   return (
     <BrowserRouter>

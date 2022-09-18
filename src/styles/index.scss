@@ -2,6 +2,6 @@
 @import './variables.scss';
 
 body {
-    font-family: 'Poppins', sans-serif !important;
+    font-family: $primaryFont;
     background-color: $bg1;
 }

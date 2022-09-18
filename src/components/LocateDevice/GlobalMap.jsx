@@ -11,7 +11,6 @@ export const GlobalMap = () => {
     const {latitude, longitude} = useLocationContext().location;
     const position = [latitude, longitude];
     
-    
     useEffect(() => {
         const L = require("leaflet");
         delete L.Icon.Default.prototype._getIconUrl;

@@ -17,6 +17,7 @@ export default function isMovile() {
   }
 };
 
+
 export const movileCoords = (location, fnMessage = alert) => {
 
   let geolocation0 = {...location}

@@ -7,11 +7,12 @@ import { Button } from 'react-bootstrap';
 
 export const Home = () => {
   const navigate = useNavigate();
+  const {triangle, triangle1} = styles;
 
   return (
     <article className={styles.container_home_view}>
       <div className={styles["container__background-triangle"]}>
-          <div className={`${styles.triangle} ${styles.triangle1}`}></div>
+          <div className={`${triangle} ${triangle1}`}></div>
           <div className={`${styles.triangle} ${styles.triangle2}`}></div>
           <div className={`${styles.triangle} ${styles.triangle3}`}></div>
       </div>
