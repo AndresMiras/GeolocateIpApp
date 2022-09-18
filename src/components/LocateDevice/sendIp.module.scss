@@ -1,0 +1,72 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins';
+
+.container {
+    margin-top: 1.5vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+
+    h3 {
+        text-align: center;
+    }
+}
+
+.sectionIPInput {
+    border: 5px solid $butStyBorder;
+    border-radius: 24px;
+    gap: 1em;
+    width: fit-content;
+
+    input {
+        text-align: center;
+        border: 0px;
+        font-size: medium;
+        border-radius: 1.5rem 0 0 1.5rem;
+    }
+
+    input:focus{
+        outline: none;
+        text-align: center;
+    } 
+    
+    button {
+        border-radius: 0 1.5rem 1.5rem 0;
+        border: 0px;
+        margin: 0 !important;
+        background-color: $butStyBg;
+        text-align: center;
+        font-weight: 450;
+        font-size: 20px;
+        padding-right: 15px;
+        cursor: pointer;
+    }
+}
+
+.sectionIPInput:hover {
+    box-shadow: $butStyShadow 0px 0px 4px 2.5px;
+    transition: 0.4s;
+}
+
+.sectionIP {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionIPResults {
+    margin: 1.5vh 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    p {
+        margin: 1rem;
+        width: fit-content;
+        background-color: $colorStyle11;
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,37 @@
+@import "./variables";
+
+@mixin img_fijada {
+    object-fit: cover;
+    object-position: center;
+}
+
+@mixin border_solid_color($rad:0, $wh:1.5px, $color:$whited) {
+    border:$wh solid $color;
+    border-radius: $rad;
+}
+
+@mixin flex-center($justf:center, $direct:column, $wr:nowrap) {
+    display: flex;
+    justify-content: $justf;
+    align-items: center;
+    flex-direction: $direct;
+    flex-wrap: $wr;
+}
+
+@mixin flex($justf:center, $alig:center, $direct:column, $wr:nowrap) {
+    display: flex;
+    justify-content: $justf;
+    align-items: $alig;
+    flex-direction: $direct;
+    flex-wrap: $wr;
+}
+
+@mixin boxsq($params: 350px) {
+    height: $params;
+    width: $params;
+}
+
+@mixin boxrec($weh:700px, $hei:auto) {
+    width: $weh;
+    height: $hei;
+}

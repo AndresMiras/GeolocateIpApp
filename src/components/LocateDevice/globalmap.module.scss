@@ -1,0 +1,22 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins';
+
+.container {
+    margin-top: 1.5vh;
+    background-color: $colorStyle1;
+    padding: 0.5vh;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
+
+.map {
+    height: calc(80vh - 3rem - 5px);
+    width: 100%;
+}
+
+
+
+
+

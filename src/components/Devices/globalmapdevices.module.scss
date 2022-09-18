@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins';
+
+.container {
+    margin-top: 1.5vh;
+    background-color: $colorStyle1;
+    padding: 0.5vh;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
+
+.map {
+    height: calc(99vh - 70px - 1.5vh);
+    width: 100%;
+}

@@ -1,0 +1,13 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins';
+
+.flag {
+    @include img_fijada();
+    width: 12.5rem !important;
+    height: 60% !important;
+}
+
+.flag_paragraf{
+    width: 12.5rem !important;
+}
+
